@@ -1,5 +1,7 @@
 # Convo Dark
 
+> **Status:** Historical Babbage-era demo. This codebase uses the deprecated `@babbage/sdk` / `@babbage/react-prompt` stack and is not representative of the current BSV application stack. New applications should use `@bsv/sdk`, the BRC-100 `WalletClient` interface, and a compatible wallet such as Babbage's Metanet Desktop / Metanet Explorer, BSV Desktop, BSV Browser, or another BRC-100 implementation.
+
 This is a fork of the [Convo Messenger codebase](https://github.com/p2ppsr/convo), but for people who would prefer a dark theme.
 
 The purpose is to demonstrate that when two apps use the same blockchain protocols, people can use the apps of their choosing.
@@ -18,9 +20,9 @@ You can use Convo Dark on the internet by going to [convo-dark.netlify.app](http
 
 ## Overview (from the Convo repo)
 
-This is a React app demonstrating the use of [Babbage](https://projectbabbage.com) technologies with a simple private messaging experience.
+This is a React app demonstrating the older Babbage application stack with a simple private messaging experience.
 
-- The app relies on the Babbage SDK to provide user accounts, key management and account recovery
+- The app relies on the deprecated Babbage SDK to provide user accounts, key management and account recovery
 - Bridgeport is used to provide a universal state machine backend powered by BSV transactions and real-time message and profile updates
 - Hashbrown will soon provide a place to store picture messages and user profile photos
 
