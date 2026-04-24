@@ -1,6 +1,6 @@
 {
   "name": "convo",
-  "description": "Historical private messaging demo built on the deprecated Babbage SDK stack",
+  "description": "Archived private messaging demo built on the deprecated Babbage SDK stack",
   "version": "0.1.0",
   "private": true,
   "scripts": {
